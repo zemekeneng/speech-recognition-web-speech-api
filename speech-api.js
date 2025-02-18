@@ -6,7 +6,7 @@ window.addEventListener("DOMContentLoaded", () => {
     window.SpeechRecognition || window.webkitSpeechRecognition;
   if (typeof SpeechRecognition !== "undefined") {
     const recognition = new SpeechRecognition();
-    recognition.lang = 'zh-TW';
+    recognition.lang = 'en-US';
     recognition.continuous = true;
     recognition.interimResults = true;
 
